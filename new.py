@@ -1,0 +1,15 @@
+def middilesum(n):
+    r=n%10
+    n=n//10
+    sum=0
+    while n>0:
+        if n<10:
+            sum=sum+n
+        n=n//10
+    print(sum+r)
+n=int(input())
+middilesum(n)
+
+
+
+
